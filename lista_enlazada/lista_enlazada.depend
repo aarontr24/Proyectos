@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1454967545 source:/home/contender/Pruebas/lista_enlazada/main.cpp
+	<iostream>
+	"Lista.h"
+
+1454968914 source:/home/contender/Pruebas/lista_enlazada/src/Lista.cpp
+	"Lista.h"
+	<iostream>
+
+1454968914 /home/contender/Pruebas/lista_enlazada/include/Lista.h
+	<Nodo.h>
+
+1454965671 /home/contender/Pruebas/lista_enlazada/include/Nodo.h
+	<iostream>
+
+1454619168 source:/home/contender/Pruebas/lista_enlazada/src/Nodo.cpp
+	"Nodo.h"
+
