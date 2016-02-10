@@ -32,7 +32,7 @@ void Lista::print()
     }
 }
 
-void Lista::insertarEn(int v, int x)
+void Lista::modNodo(int v, int x)
 {
     Nodo *temp = this->inicio;
     for(int i=1; i<x; i++)
@@ -40,4 +40,34 @@ void Lista::insertarEn(int v, int x)
         temp=temp->sgte;
     }
     temp->valor=v;
+}
+
+void Lista::insertarEn(int v, int x)
+{
+    Nodo *nuevo = new Nodo(v);
+    Nodo *atras = this->inicio;
+    Nodo *temp;
+    if(x==1)
+    {
+        nuevo->sgte=this->inicio;
+        this->inicio=nuevo;
+        this->items++;
+    }
+    else if(x>this->items)
+    {
+        this->actual->sgte=nuevo;
+        this->actual=nuevo;
+        this->items++;
+    }
+    else
+    {
+        for(int i=2; i<x;i++)
+        {
+            atras=atras->sgte;
+        }
+        temp=atras->sgte;
+        atras->sgte=nuevo;
+        nuevo->sgte=temp;
+        this->items++;
+    }
 }

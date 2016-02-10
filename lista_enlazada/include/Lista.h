@@ -11,7 +11,8 @@ class Lista
 
         void insertar(int);
         void print();
-        void insertarEn(int,int);
+        void modNodo(int,int); //modifica el valor de un nodo
+        void insertarEn(int,int); //inserta un nodo en una posicion indicada de la lista
 
     protected:
 

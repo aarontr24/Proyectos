@@ -13,7 +13,10 @@ int main()
     a.insertar(27);
     a.print();
     cout<<endl;
-    a.insertarEn(12,6);
+    a.modNodo(12,4);
+    a.print();
+    cout<<endl;
+    a.insertarEn(25,4);
     a.print();
 
     //cout << "Hello world!" << endl;

@@ -16,3 +16,20 @@
 1454619168 source:/home/contender/Pruebas/lista_enlazada/src/Nodo.cpp
 	"Nodo.h"
 
+1455146003 source:/home/contender/GitHub/Proyectos/lista_enlazada/main.cpp
+	<iostream>
+	"Lista.h"
+
+1455146116 /home/contender/GitHub/Proyectos/lista_enlazada/include/Lista.h
+	<Nodo.h>
+
+1455029390 /home/contender/GitHub/Proyectos/lista_enlazada/include/Nodo.h
+	<iostream>
+
+1455145944 source:/home/contender/GitHub/Proyectos/lista_enlazada/src/Lista.cpp
+	"Lista.h"
+	<iostream>
+
+1455029390 source:/home/contender/GitHub/Proyectos/lista_enlazada/src/Nodo.cpp
+	"Nodo.h"
+
