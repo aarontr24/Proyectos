@@ -13,6 +13,10 @@ class Lista
         void print();
         void modNodo(int,int); //modifica el valor de un nodo
         void insertarEn(int,int); //inserta un nodo en una posicion indicada de la lista
+        bool buscar(int);
+        void invertir();
+        int getActual();
+        int getInicio();
 
     protected:
 
